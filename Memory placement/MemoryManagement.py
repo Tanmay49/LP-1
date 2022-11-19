@@ -61,7 +61,7 @@ for i in range (m):
     blockSize.append(int(input(f"Enter {i} block:")))
 
 for i in range (n):
-    blockSize.append(int(input(f"Enter {i} process:")))
+    processSize.append(int(input(f"Enter {i} process:")))
 loop=True
 while loop:
     print("1.Best Fit\n")
